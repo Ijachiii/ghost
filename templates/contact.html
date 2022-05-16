@@ -1,0 +1,39 @@
+{% import "bootstrap/wtf.html" as wtf %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link href="static/assets/css/styles.css" rel="stylesheet">
+</head>
+<body id="body2">
+     <div id="top-cont", style="background-image: url('{{ url_for('static', filename='assets/images/gra.jpg') }}')">
+         <div id="nav">
+             <nav class="txt1">
+                 <p id="text">DAVID AUDU
+                     <a class="nav3" href="{{url_for('home')}}">Home</a>
+                     <a class="nav4" href="https://twitter.com/David_Audu_">@ijachi</a>
+                 </p>
+             </nav>
+         </div>
+         <div id="not">
+             <p class="contact-text">Contact</p>
+             <p class="message">Send Me A Message...</p>
+         </div>
+    </div>
+    <div id="middle-cont">
+        <form action="{{url_for('contact')}}" method="post">
+            <label class="email">
+                Your Email *
+            </label><br>
+            <input name="email" class="email-box" type="email"><br><br>
+            <label class="message">
+                Message *
+            </label><br>
+            <textarea placeholder="Message" name="message"></textarea><br>
+            <input class="button" type="submit" value="Send Message">
+        </form>
+
+    </div>
+    {% include "footer.html" %}

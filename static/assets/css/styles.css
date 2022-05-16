@@ -1,0 +1,137 @@
+.intro{
+font-family: cursive;
+font-size: 3em}
+
+#top-container{
+padding: 15px 100px 15px 0px;
+margin: 0px 0px 0px 60%;
+font-size: 1.5em;
+}
+
+#middle-container{
+margin: 0px 0px 0px 10%;
+background-color: #DDDDDD;
+padding: 10px 10px 10px 50px;
+overflow: hidden;
+color: #4D727E;
+}
+
+#first{
+width: 46%;
+float: left;}
+
+#second{
+font-size: 25px;
+font-family: Merriweather, serif;
+transform: rotate(90deg);
+position: relative;
+right: 30px;
+top: 40px}
+
+#third{
+margin: 620px 100px 0px 600px;
+font-family: Merriweather, serif;
+font-style: italic}
+
+#bottom-container{
+margin: 80px 0px 80px 18%;
+font-size: 1.3em;
+overflow: hidden;}
+
+#one{
+float: left;}
+
+#two{
+margin-left: 250px;}
+
+hr{
+margin: 50px 0px}
+
+a{
+text-decoration: none;
+}
+
+.txt{
+color: #1F4E5F}
+
+.copyright{
+color: grey;
+text-align: center}
+
+.nav2{
+padding: 0px 0px 0px 20%}
+
+#bro{
+margin: 0px 0px 0px 40%;}
+
+#top-cont{
+background-color: #DDDDDD;;
+}
+
+#nav{
+padding: 15px 100px 15px 0px;
+font-size: 1.5em;}
+
+.txt1{
+color: white;
+margin: 0px 0px 0px 15%}
+
+#yo{
+color: #1F4E5F;}
+
+.nav3{
+margin: 0px 70px 0px 62%;
+color: white}
+
+.nav4{
+color: white;}
+
+#not{
+padding: 15px 100px 15px 0px;
+color: white;
+margin: 110px 0px 0px 187.5px}
+
+.contact-text{
+font-size: 3em;
+margin: 0px 0px 0px 0px}
+
+.message{
+font-size: 1.1em}
+
+#middle-cont{
+margin: 80px 0px 0px 187.5px;
+font-size: 1.5em}
+
+.email{
+margin: 0px 0px 50px 0px}
+
+.email-box{
+height: 39px;
+width: 500px;
+background-color: #f3f3f3}
+
+textarea{
+width: 500px;
+height: 200px;
+background-color: #f3f3f3}
+
+.button{
+background-color: black;
+height: 41px;
+width: 116px;
+color: white;
+font-size: 0.5em}
+
+.button:hover {
+      background-color:grey;
+      transition: 0.2s;
+  }
+
+.button:active {
+    background-color: #1F4E5F;
+}
+
+body{
+margin: 0px}
+
+#1F4E5F
